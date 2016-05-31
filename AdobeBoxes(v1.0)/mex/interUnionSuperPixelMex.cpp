@@ -61,7 +61,7 @@ void mexFunction(int nout, mxArray *out[], int nin, const mxArray *in[])
 	double **data1;
 	double **data2;
 
-	double *res = NULL;//Êä³ö½á¹û
+	double *res = NULL;//output
 
 	data1 = (double **)malloc(sizeof(double*)*row1);
 	for (i = 0; i < row1; i++)
