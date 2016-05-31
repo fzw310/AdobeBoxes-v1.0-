@@ -197,7 +197,7 @@ void mexFunction(int nout, mxArray *out[], 	int nin, const mxArray *in[])
 	double **matchCost1f;
 	unsigned char step = 1;
 
-	double *res = NULL;//Êä³ö½á¹û
+	double *res = NULL;//output
 	ValStructVec<float, PointXY> matchCost;
 	matchCost1f = (double **)malloc(sizeof(double)*row);
     for(i = 0; i < row; i++)
